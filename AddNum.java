@@ -23,6 +23,7 @@ public class AddNum {
        int result = add(number, num);
       
        System.out.printf(" Addition of numbers %d and %d is %d %n", number, num, result);
+	   System.out.println("Result -->"+result);
     }
   
     public static int add(int number, int num){
